@@ -1,0 +1,47 @@
+{
+  "name": "balk",
+  "version": "0.1.1",
+  "description": "Chalk-compatible color library for Bun using native Bun.color API",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "bun": "./src/index.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "bun run build.ts",
+    "test": "bun test",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "bun",
+    "color",
+    "ansi",
+    "terminal",
+    "chalk",
+    "console",
+    "cli",
+    "string",
+    "style"
+  ],
+  "type": "module",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
