@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="balk.webp" alt="balk logo" width="200" />
+  <img src="https://raw.githubusercontent.com/aewing/balk/main/balk.webp" alt="balk logo" width="200" />
   
   # balk
   

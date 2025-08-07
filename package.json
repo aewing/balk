@@ -1,6 +1,6 @@
 {
   "name": "balk",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Chalk-compatible color library for Bun using native Bun.color API",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -17,7 +17,6 @@
   "files": [
     "dist",
     "src",
-    "balk.webp",
     "LICENSE.md",
     "README.md"
   ],
